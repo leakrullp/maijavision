@@ -73,3 +73,12 @@ li p {
   display: inline; /* Keeps the link text from dropping to a new line */
   margin: 0; /* Prevents the big 2rem default paragraph margin from breaking the centering */
 }
+
+hr {
+  margin: 1.5rem auto;
+  border: none;
+  background-color: white;
+  height: 0.5px;
+  width: 50%;
+  align-content: center;
+}
