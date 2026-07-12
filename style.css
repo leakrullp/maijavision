@@ -8,19 +8,38 @@
 }
 
 body {
-  font-family: Gotham-Medium, system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+  font-family:
+    Gotham-Medium,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
     sans-serif;
   text-align: center;
   background-color: rgb(7, 2, 28);
   color: white;
-  line-height: 1.5rem;
   margin: 3rem 1rem;
 }
 
 h1 {
-  font-family: Gotham-Bold, system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+  font-family:
+    Gotham-Bold,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
     sans-serif;
   color: lightpink;
 }
@@ -31,4 +50,26 @@ h2 {
 
 p {
   margin: 2rem;
+  line-height: 1.5rem;
+}
+
+a {
+  color: white;
+}
+
+ol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 0; /* Removes default browser indentation */
+  list-style-position: inside; /* Keeps numbers right next to the text */
+}
+
+li {
+  display: list-item; /* Forces the browser to bring back the 1, 2, 3 numbers */
+}
+
+li p {
+  display: inline; /* Keeps the link text from dropping to a new line */
+  margin: 0; /* Prevents the big 2rem default paragraph margin from breaking the centering */
 }
